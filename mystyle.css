@@ -17,11 +17,26 @@ header {
 }
 
 main {
+    margin-left: 10%;
     background-color: #ffffff;
     background-size: contain;
     text-align: center;
     align-content: center;
     margin-bottom: 2%;
+
+}
+
+main h1 {
+    display: block;
+    margin-left: 5%;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+    text-align: left;
+    font-family: "Anuphan";
+    font-size: x-large;
 }
 
 nav {
@@ -89,4 +104,23 @@ footer {
     max-width: 300px;
     cursor: pointer;
     transition: 0.3s;
+}
+
+ol {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    transition: color 0.3s ease;
+    text-align: left;
+    font-family: "Anuphan";
+    font-size: x-large;
+    display: list-item;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.center{
+    text-align: center;
+    font-size: 50px;
 }
