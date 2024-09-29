@@ -44,13 +44,13 @@ nav ul {
 
 nav ul li {
     display: list-item;
-    margin: 50px;
+    margin: 40px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 25px;
     transition: color 0.3s ease;
 }
 
