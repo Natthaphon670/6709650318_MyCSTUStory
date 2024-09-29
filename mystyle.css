@@ -110,7 +110,10 @@ ol {
     text-decoration: none;
     color: #000000;
     font-size: 25px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease;   
+}
+
+ol ls {
     text-align: left;
     font-family: "Anuphan";
     font-size: x-large;
@@ -118,7 +121,6 @@ ol {
     font-size: 30px;
     margin: 10px;
 }
-
 
 .center{
     text-align: center;
