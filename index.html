@@ -1,0 +1,57 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CSTU story</title>
+    <link rel="stylesheet" href="mystyle.css">   
+</head>
+<body>
+    <page class="page">
+        Homepage
+    </page>
+    
+    <header>
+        <h1> Welcome to My CSTU story</h1>
+    
+    </header>
+    
+    <main class="fieldset">
+        <table align="center" border="0" cellspacing="0" cellpadding="10" width=”100%”>
+            <tr>
+                <td text align="center">
+                    <p><strong><i>นี้คือเว็บไซค์ของ</i></strong></p>
+                    <p><i>นาย ณัฐพล เพ็ชระ</i></p>
+                    <p><strong>คณะ:</strong>วิทยาศาสตร์และเทคโนโลยี</p>
+                    <p><strong>สาขา:</strong>วิทยาการคอมพิวเตอร์</p>
+                    <p><strong>รหัสนักศึกษา:</strong>6709650318</p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                        <div class="media-container">
+                        <img src="resources/mypic.jpg" alt="Thumbnail Image" width="325" height="400">
+                    </div>    
+            </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="video-container">
+                        <video src="resources/myvideo.mp4" controls onclick="openFullscreen(this.src)"></video>
+                    </div>
+            </tr>
+        </table>  
+        <script>
+             function openFullscreen(src) {
+            const videoElement = document.getElementById("fullscreen-video-element");
+            videoElement.src = src;
+            document.getElementById("fullscreen-video").style.display = "block";
+            videoElement.play();
+        }
+        </script>
+    </main>
+    
+    <footer>
+        @Email:Natthaphon.phe@dome.tu.ac.th
+    </footer>
+</body>
+</html>

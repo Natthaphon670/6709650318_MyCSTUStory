@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-vector/abstract-shiny-lines-white-gray-minimal-background-design_84443-2780.jpg?w=1380&t=st=1725182835~exp=1725183435~hmac=4cf3b316595335f03828e31afcec7df0d9a4c3b58d4bcf07e530c7a58a8e9772);
+}
+
+.page {
+    color: #000000;
+    padding: 2%;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-size: xx-large;
+}
+
+header {
+    background-color: #1d3766;
+    color: #9dbcda;
+    padding: 20px;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-size: xx-large;
+}
+
+main {
+    background-color: #ffffff;
+    background-size: contain;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 2%;
+}
+
+footer {
+    background-color: #14415f;
+    color: #9dbcda;
+    font-family: "Handjet", sans-serif;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.fieldset {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+  }
+
+  p {
+    font-family: "Anuphan";
+    font-size: x-large;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-container video {
+    width: 50%;
+    max-width: 300px;
+    cursor: pointer;
+    transition: 0.3s;
+}
