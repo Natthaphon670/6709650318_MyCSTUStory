@@ -6,13 +6,6 @@ body {
     background-image: url(https://img.freepik.com/free-vector/abstract-shiny-lines-white-gray-minimal-background-design_84443-2780.jpg?w=1380&t=st=1725182835~exp=1725183435~hmac=4cf3b316595335f03828e31afcec7df0d9a4c3b58d4bcf07e530c7a58a8e9772);
 }
 
-.page {
-    color: #000000;
-    padding: 2%;
-    text-align: center;
-    font-family: "Handjet", sans-serif;
-    font-size: xx-large;
-}
 
 header {
     background-color: #1d3766;
@@ -31,6 +24,36 @@ main {
     margin-bottom: 2%;
 }
 
+nav {
+    background-color: #45c2d8;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 10%;
+    height: 100vb;
+    padding: 10;
+    position: sticky;
+    top: 10;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: list-item;
+    margin: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
 footer {
     background-color: #14415f;
     color: #9dbcda;
@@ -45,7 +68,6 @@ footer {
 .fieldset {
     display: block;
     margin-left: 5%;
-    margin-right: 5%;
     padding-top: 0.35em;
     padding-bottom: 0.625em;
     padding-left: 0.75em;
